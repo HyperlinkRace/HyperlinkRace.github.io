@@ -10935,6 +10935,23 @@ section.masthead a {
   color: white;
 }
 
+section.gray {
+  position: relative;
+  overflow: hidden;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  background: linear-gradient(0deg, #d3d3d3 0%, #f5f5f5 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+img.screenshot {
+  border: 2px solid rgb(107, 93, 228);
+  border-radius: 10px;
+}
+
 .underline {
   text-decoration: underline;
 }
